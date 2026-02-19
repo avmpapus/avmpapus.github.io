@@ -185,44 +185,40 @@
 <body>
 
 <header id="home">
-  <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-    
-    <div class="carousel-inner">
+  <div class="hero-slider">
+    <div class="slides">
+      <div class="slide active" style="background-image: url(public/images/slider/1.jpg);">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-center">
 
-      <!--<div class="item active" style="background-image: url(public/images/slider/1.jpg);">-->
-        <div class="caption-wrapper">
-          <div class="caption text-center">
+          <!-- Логотип -->
+          <img src="public/images/ico.png" class="hero-logo" alt="Avmpapus">
 
-            <!-- Логотип -->
-            <img src="public/images/ico.png" class="slider-logo" alt="Avmpapus">
+          <!-- Заголовок -->
+          <h1 class="hero-title">Welcome to <span>Avmpapus</span></h1>
 
-            <!-- Заголовок -->
-            <h1 class="animated fadeInLeftBig">
-              Welcome to <span>Avmpapus</span>
-            </h1>
+          <!-- Підзаголовок / технології -->
+          <p class="hero-subtitle">Frontend Developer – Web Applications – Digital Solutions</p>
 
-            <!-- Підзаголовок / технології -->
-            <p class="animated fadeInRightBig">
-              Frontend Developer – Web Applications – Digital Solutions
-            </p>
-
-            <!-- Кнопка -->
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">
-              Start now
-            </a>
-
+          <!-- Технології -->
+          <div class="hero-tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+            <span>React</span>
+            <span>Git</span>
+            <span>REST API</span>
+            <span>Responsive Design</span>
           </div>
+
+          <!-- Кнопка -->
+          <a data-scroll class="btn btn-start" href="#services">Start now</a>
+
         </div>
       </div>
-
-      <!-- Можна додати ще інші слайди, якщо потрібно -->
-
+      <!-- Можна додати ще інші слайди тут -->
     </div>
-
-    <!-- Прибираємо стрілки -->
-    <!-- <a class="left-control" href="#home-slider" data-slide="prev"><img src="public/images/lightbox/prev.png" /></a> 
-    <a class="right-control" href="#home-slider" data-slide="next"><img src="public/images/lightbox/next.png" /></a> -->
-
   </div>
 </header>
 
@@ -431,6 +427,7 @@
 
 </body>
 </html>
+
 
 
 
