@@ -13,18 +13,7 @@
 
 
 <style>
-
-  .folio-item {
-  min-height: 320px;
-}
-
-.folio-item img {
-  max-height: 180px;
-  object-fit: cover;
-}
-
-
-
+/* Hero Slider */
 .hero-slider {
   position: relative;
   height: 100vh;
@@ -37,8 +26,8 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  transition: opacity 1s ease-in-out;
   opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .slides .slide.active {
@@ -49,135 +38,70 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.5); /* затемнення для контрасту */
   z-index: 1;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
-  color: white;
   top: 50%;
   transform: translateY(-50%);
+  color: white;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .hero-logo {
-  width: 80px;
+  width: 100px;
   margin-bottom: 20px;
 }
 
 .hero-title {
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 700;
-  letter-spacing: 2px;
   margin-bottom: 15px;
 }
 
 .hero-subtitle {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  margin-bottom: 25px;
 }
 
 .hero-tech {
   display: flex;
   justify-content: center;
-  gap: 15px;
   flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
 }
 
 .hero-tech span {
-  padding: 8px 15px;
+  padding: 6px 15px;
   border: 1px solid white;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 0.85rem;
 }
 
-.caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
+.btn-start {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background: #ffffff33; /* напівпрозора кнопка */
   color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
-.slider-logo {
-  width: 80px;
-  margin-bottom: 20px;
+.btn-start:hover {
+  background: white;
+  color: black;
+  text-decoration: none;
 }
 
-.carousel .item {
-  height: 100vh; /* висота слайду на весь екран */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.caption-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* центр по горизонталі та вертикалі */
-  width: 100%;
-  text-align: center;
-  color: white;
-  z-index: 10;
-}
-
-.slider-logo {
-  width: 80px;
-  margin-bottom: 20px;
-}
-
-
-.carousel .item {
-  height: 100vh; /* висота слайду на весь екран */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.caption-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* центр по горизонталі та вертикалі */
-  width: 100%;
-  text-align: center;
-  color: white;
-  z-index: 10;
-}
-
-.slider-logo {
-  width: 80px;
-  margin-bottom: 20px;
-}
-
-.carousel .btn-start {
-  margin-top: 20px;
-}
-
-
-.caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 10;
-}
-
-.slider-logo {
-  width: 80px;
-  margin-bottom: 20px;
-}
-
-.custom-brand {
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-  
 </style>
   
 </head>
@@ -427,6 +351,7 @@
 
 </body>
 </html>
+
 
 
 
