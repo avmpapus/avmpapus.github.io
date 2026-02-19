@@ -977,6 +977,18 @@ ul.address {
   background-color: #ff6b00;
 }
 
+
+
+.folio-item {
+  min-height: 320px;
+}
+
+.folio-item img {
+  max-height: 180px;
+  object-fit: cover;
+}
+
+
 /*Presets*/
 
 
