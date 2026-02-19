@@ -14,37 +14,41 @@
 
 <body>
 
-<header id="home">
-  <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
+<header class="hero-slider">
 
-      <div class="item active" style="background-image: url(public/images/slider/1.jpg)">
-        <div class="carousel-caption">
-          <h1>Сучасні цифрові рішення</h1>
-          <p>Веб-розробка • Архітектура систем • ІТ-проєкти</p>
-        </div>
-      </div>
+  <!-- Слайди -->
+  <div class="slides">
+    <div class="slide active" style="background-image: url('public/images/slide1.jpg');"></div>
+    <div class="slide" style="background-image: url('public/images/slide2.jpg');"></div>
+  </div>
 
-      <div class="item" style="background-image: url(public/images/slider/2.jpg)">
-        <div class="carousel-caption">
-          <h1>Розробка сайтів та застосунків</h1>
-          <p>Індивідуальний підхід та практичні рішення</p>
-        </div>
-      </div>
+  <!-- Затемнення -->
+  <div class="hero-overlay"></div>
 
-      <div class="item" style="background-image: url(public/images/slider/3.jpg)">
-        <div class="carousel-caption">
-          <h1>Технології для розвитку</h1>
-          <p>Ефективність • Надійність • Масштабованість</p>
-        </div>
-      </div>
+  <!-- Контент поверх -->
+  <div class="hero-content text-center">
 
+    <img src="public/images/logo.png" alt="avmpapus" class="hero-logo">
+
+    <h1 class="hero-title">avmpapus</h1>
+
+    <p class="hero-subtitle">
+      Frontend Developer | Web Applications | Digital Solutions
+    </p>
+
+    <div class="hero-tech">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+      <span>React</span>
+      <span>Git</span>
     </div>
 
-    <a class="left-control" href="#home-slider" data-slide="prev">‹</a>
-    <a class="right-control" href="#home-slider" data-slide="next">›</a>
   </div>
+
 </header>
+
 
   <section class="hero-info">
   <div class="container text-center">
@@ -247,6 +251,7 @@
 
 </body>
 </html>
+
 
 
 
