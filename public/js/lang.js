@@ -130,7 +130,7 @@ $(function(){
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
           <h2>Наше портфоліо</h2>
-          <p>Ми працюємо не тільки з клієнтами, а й маємо власні продукти, якими користуюся самі</p>
+          <p>Ми працюємо не тільки з клієнтами, а й маємо власні продукти, якими користуємося самі</p>
         </div>
       </div> 
     </div>
@@ -557,6 +557,7 @@ $(function(){
 </div>`;
     })
   })
+
 
 
 
