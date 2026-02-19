@@ -1077,6 +1077,35 @@ ul.address {
   background-position: center;
 }
 
+.carousel-inner,
+.carousel .item {
+  height: 100vh;
+}
+
+.carousel .item {
+  background-size: cover;
+  background-position: center;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10;
+}
+
+.slider-logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.custom-brand {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 
 /*Presets*/
 
