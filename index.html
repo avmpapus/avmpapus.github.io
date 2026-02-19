@@ -120,6 +120,38 @@
   .btn-start { padding: 10px 20px; font-size: 0.9rem; }
 }
 
+
+
+  .folio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 350px; /* щоб усі блоки однакові по висоті */
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .folio-item img {
+    width: 100%;
+    max-width: 300px; /* фіксована ширина для вирівнювання */
+    height: 180px; /* однакова висота для всіх */
+    object-fit: cover; /* обрізає зайве, зберігає пропорції */
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+
+  .folio-item h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .folio-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
 </style>
   
 </head>
@@ -235,7 +267,7 @@
       <div class="col-sm-3">
         <div class="folio-item text-center">
           <a href="../public/mobiapp/src/index.html" target="_blank">
-            <img class="img-responsive center-block" src="public/images/portfolio/mobileapp.JPG" alt="MobiApp" width="310">
+            <img class="img-responsive center-block" src="public/images/portfolio/mobileapp.JPG" alt="MobiApp">
             <h4>MobiApp</h4>
             <p>Мобільний застосунок</p>
           </a>
@@ -361,6 +393,7 @@
 
 </body>
 </html>
+
 
 
 
