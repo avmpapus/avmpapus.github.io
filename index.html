@@ -191,6 +191,37 @@
   line-height: 1.6;
 }
 
+
+  .footer {
+  padding: 60px 0;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.footer h4 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.footer-email {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #4da6ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-email:hover {
+  color: #ffffff;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
 </style>
   
 </head>
@@ -435,9 +466,16 @@
 
   
 
-<footer style="padding:40px 0;text-align:center;">
-  <p>© ItDynamics</p>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <h4>Контакти</h4>
+      <a href="mailto:almp@i.ua" class="footer-email">almp@i.ua</a>
+      <p class="footer-copy">© 2026 ITDynamics</p>
+    </div>
+  </div>
 </footer>
+
 
 
 <script src="public/js/jquery-3.6.0.js"></script>
@@ -445,6 +483,7 @@
 
 </body>
 </html>
+
 
 
 
